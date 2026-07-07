@@ -9,7 +9,7 @@ message(STATUS "Downloading the WASM spec test suite")
 FetchContent_Declare(
   wasmedge_unit_test
   GIT_REPOSITORY https://github.com/WasmEdge/wasmedge-spectest
-  GIT_TAG        e1b86257eac83f3bfa643814d593e7651d5f4c28  # wasm-core-20260322
+  GIT_TAG        c56b98839b236bb2dba4bb71733c08f2af0e1155  # wasm-core-20260708
 )
 FetchContent_MakeAvailable(wasmedge_unit_test)
 message(STATUS "Downloading the WASM spec test suite -- done")
